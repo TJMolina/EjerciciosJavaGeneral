@@ -1,0 +1,30 @@
+class animal{
+	constructor(especie,edad,color)
+	{
+		this.especie = especie;
+		this.edad = edad;
+		this.color = color;
+		this.informacion = `Soy ${this.especie}, tengo ${this.edad} años y soy de color ${this.color}`;
+	}
+
+	verInfo()
+	{
+		document.write(this.info);
+	}
+
+	static ladrar()
+	{
+		document.write("waw");	
+	}
+}
+
+animal.ladrar();
+
+const perroo = new perro("perro", 5, "rojo","dober");
+perroo.verInfo();
+
+explicacion: static me permite llamar a un metodo dentro de una clase sin haber creado un objeto
+perteneciente a esa clase. esto solo es posible si el metodo no necesita utilizar las propiedades
+de la clase, ya que al no crear el objeteo, no hay propiedades. 
+ejemplo, si trato de utilizar animal.verInfo() saldria error. Pero si utilizo  animal.ladrar()
+saldria "waw".

@@ -1,0 +1,22 @@
+class animal{
+	constructor()
+	{
+	this.especie = especie;
+	this.edad = edad;
+	this.color = color;
+	this.informacion = `Soy ${this.especie}, tengo ${this.edad} años y soy de color ${this.color}`;
+	}
+
+	//las funciones flecha no funcionan para las clases
+	//const verInfo = ()=> document.write(this.info);
+
+	//se hace de esta forma:
+	verInfo()
+	{
+		document.write(this.info);
+	}
+}
+
+const perro = new animaal("perro", 5, "rojo");
+
+perro.verInfo();

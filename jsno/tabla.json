@@ -1,0 +1,17 @@
+[
+    {
+        "modelo":"for mustang",
+        "produccion":2010,
+        "millaje":12000
+    },
+    {
+        "modelo":"honda accord",
+        "produccion":2011,
+        "millaje":4560
+    },
+    {
+        "modelo":"honda accord",
+        "produccion":2016,
+        "millaje":58200
+    }
+]

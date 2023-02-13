@@ -1,0 +1,41 @@
+elemento.classList.add("grande");
+elemento.classList.remove("grande");
+
+---------------------------
+html:
+<h1 class="hola grande rojo">hola</h1>
+
+js:
+cost titulo = document.querySelector(".hola");
+let valor = titulo.classList.item(1);
+document.write(valor);//==>grande
+---------------------------
+html:
+<h1 class="hola grande rojo">hola</h1>
+
+js:
+cost titulo = document.querySelector(".hola");
+let valor = titulo.classList.contains("grande");
+document.write(valor);//==>true
+---------------------------
+html:
+<h1 class="hola rojo">hola</h1>
+
+js:
+cost titulo = document.querySelector(".hola");
+
+let valor = titulo.classList.contains("grande");
+document.write(valor);//==>false
+
+titulo.classList.toggle("grande");
+
+valor = titulo.classList.contains("grande");
+document.write(valor);//==>true
+---------------------------
+html:
+<h1 class="hola grande rojo">hola</h1>
+
+js:
+cost titulo = document.querySelector(".hola");
+titulo.classList.replace("grande","chico");
+---------------------------

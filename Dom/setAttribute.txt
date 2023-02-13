@@ -1,0 +1,2 @@
+elementohtml.setAttribute("type","color");
+texto.setAttribute("contentEditable","true");

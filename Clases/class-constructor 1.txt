@@ -1,0 +1,12 @@
+class animal{
+	constructor()
+	{
+	this.especie = especie;
+	this.edad = edad;
+	this.color = color;
+	this.informacion = `Soy ${this.especie}, tengo ${this.edad} años y soy de color ${this.color}`;
+	}
+}
+
+const perro = new animaal("perro", 5, "rojo");
+document.write(perro.informacion);

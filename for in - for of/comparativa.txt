@@ -1,0 +1,26 @@
+let animales = ["gato","perro","rex"];
+
+for(animal in animales)
+{
+	document.write(animal+"<br>");
+}
+
+	document.write("<br>");
+
+
+for(animal of animales)
+{
+	document.write(animal+"<br>");
+}
+
+resultado:
+
+0
+1
+2
+
+gato
+perro
+rex
+
+explicacion: in nos devuelve la posicion y of devuelve el elemento.
